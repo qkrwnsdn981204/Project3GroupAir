@@ -1,8 +1,21 @@
+# 😀박준우 3차 프로젝트
+
 ### 시나리오형 챗봇 웹 개발
 
 #### **● 프로젝트 명** : Group Air
 
 #### **● 프로젝트 설명** : 항공사 그룹웨어 시스템 OpenAPI 추가 및 시나리오형 ChatBot
+
+- **Preview**<br>
+    - 버스 API
+      <br>
+      <img src="https://github.com/qkrwnsdn981204/ParkJunwooProjects/assets/154858222/ba022ad0-49ae-46a4-b6eb-07476d82542d" width="800" height="400"/>
+      <br>
+      <br>
+    - 공항 버스 API
+      <br>
+      <img src="https://github.com/qkrwnsdn981204/ParkJunwooProjects/assets/154858222/ce89e7af-45ce-4b25-bc10-a39e79aacd63" width="800" height="400"/>
+
 
 #### **● 프로젝트 소개**
 
@@ -24,16 +37,6 @@
 > 정** (팀원) : 버스 ChatBot
 
 > 조** (팀원) : 날씨 정보 Api, 공항 날씨, 날씨 ChatBot
-
-- **Preview**<br>
-    - 버스 API
-      <br>
-      <img src="https://github.com/qkrwnsdn981204/ParkJunwooProjects/assets/154858222/ba022ad0-49ae-46a4-b6eb-07476d82542d" width="800" height="400"/>
-      <br>
-      <br>
-    - 공항 버스 API
-      <br>
-      <img src="https://github.com/qkrwnsdn981204/ParkJunwooProjects/assets/154858222/ce89e7af-45ce-4b25-bc10-a39e79aacd63" width="800" height="400"/>
 
 <details>
 
@@ -58,7 +61,8 @@
 
 <summary> 프로젝트 일정 </summary>
 
-![img.png](images/Project3/project3plan.png)
+![img.png](src/main/resources/static/images/Project3/project3plan.png)
+
 
 </details>
 
@@ -66,7 +70,7 @@
 
 <summary> ER 다이어그램 </summary>
 
-![img.png](images/Project3/project3ERD.png)
+![img.png](src/main/resources/static/images/Project3/project3ERD.png)
 
 </details>
 
@@ -102,5 +106,4 @@
 
 </details>
 
-
-# Project3GroupAir
+**[⬆ 위로 가기](#박준우-3차-프로젝트)**
