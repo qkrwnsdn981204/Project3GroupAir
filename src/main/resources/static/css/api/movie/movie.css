@@ -1,0 +1,431 @@
+@font-face {
+    font-family: 'TTLaundryGothicB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.adminContainer .movie {
+
+    font-family: 'TTLaundryGothicB';
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+      height: 1140px;
+}
+
+.adminContainer .movie .movie-con{
+  width: 1400px;
+  height: 100%;
+}
+
+.adminContainer .movie .movie-con h1{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.adminContainer .movie .movie-con .button-list{
+  display: flex;
+  height: 100px;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.adminContainer .movie .movie-con .button-list .con{
+    display: flex;
+    justify-content: flex-end; /* 가로 방향으로 끝으로 정렬 */
+
+}
+.adminContainer .movie .movie-con .button-list .con-list{
+  display: flex;
+  gap: 10px; /* 아이템 사이에 간격을 주고 싶을 때 사용 */
+}
+
+.adminContainer .movie .movie-con .button-list :nth-child(1) {
+    border-radius: 25px;
+font-family: 'TTLaundryGothicB';
+  flex: 1;
+  font-size: 25px;
+      flex: 1;
+      background-color: #d43232;
+      color: white;
+      border: none;
+}
+.adminContainer .movie .movie-con .button-list :nth-child(2) {
+    border-radius: 25px;
+font-family: 'TTLaundryGothicB';
+  flex: 1;
+  font-size: 25px;
+      flex: 1;
+      background-color: #d43232;
+      color: white;
+      border: none;
+}
+
+.adminContainer .movie .movie-con .button-list :nth-child(3) {
+    border-radius: 25px;
+font-family: 'TTLaundryGothicB';
+  flex: 1;
+  font-size: 25px;
+      flex: 1;
+      background-color: #d43232;
+      color: white;
+      border: none;
+}
+
+ /* 기본 버튼 스타일 */
+        .adminContainer .movie .movie-con .button-list button {
+            font-family: 'TTLaundryGothicB';
+            flex: 1;
+            font-size: 25px;
+            background-color: #d43232;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+        }
+
+        /* 호버 효과 */
+        .adminContainer .movie .movie-con .button-list button:hover {
+            background-color: #b52b2b; /* 배경색 변경 */
+            transform: scale(1.1) translateY(-5px); /* 확대 및 위로 이동 */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* 더 진한 그림자 */
+            border: 2px solid white; /* 흰색 테두리 */
+        }
+
+.adminContainer .movie .movie-con .button-list .con {
+
+  margin-top: 60px;
+  margin-right: 100px;
+}
+ 
+.adminContainer .movie .movie-con .grid .grid-con img{
+  transition: all 0.4s linear(-2 -80%, 1 100%);
+}
+
+
+
+.adminContainer .movie .movie-con thead{
+  height: 40px;
+  border-bottom: 1px solid rgb(206, 206, 194);
+
+}
+
+.adminContainer .movie .movie-con tr td{
+    width: 1000px;
+    height: 40px;
+    border-bottom: 1px solid beige;
+    text-align: center;
+    padding: 0px 20px;
+
+}
+
+
+
+.adminContainer .movie .movie-con tr td.movieNm-cell{
+    color: #fff;
+       text-align: center;
+       text-transform: uppercase;
+       background: #111;
+       border-radius: 10px;
+       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+       transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.adminContainer .movie .movie-con tr td.movieNm-cell:hover {
+     color: #d43232;
+        box-shadow: 0 0 10px #d43232, 0 0 20px #d43232, 0 0 30px #d43232;
+        cursor: pointer;
+}
+
+.adminContainer .movie .movie-con table{
+
+
+}
+
+
+.adminContainer .movie .movie-con .movie_table{
+  width: inherit;
+
+}
+
+.adminContainer .movie .movie-con .boxOffice_table{
+  width: inherit;
+
+}
+.adminContainer .movie .movie-con .tableCenter1{
+display: flex;
+    justify-content: center;
+
+}
+.adminContainer .movie .movie-con .tableCenter2{
+display: flex;
+    justify-content: center;
+
+}
+.adminContainer .movie .movie-con .tableCenter3{
+display: flex;
+    justify-content: center;
+
+}
+.adminContainer .movie .movie-con .box_movie_table{
+  width: inherit;
+   }
+
+/* .adminContainer .movie .movie-con .grid {
+  display: flex;
+} */
+/*금일 css*/
+
+.adminContainer .movie .movie-con .grid {
+  margin-top: 30px;
+  display: flex;
+}
+
+.adminContainer .movie .movie-con .grid .grid-con {
+  width: 1300px;
+}
+
+.adminContainer .movie .movie-con .grid .grid-con .span-on{
+    gap: 159px 14px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    width: 1400px;
+}
+
+.adminContainer .movie .movie-con .grid .grid-con .span-on img{
+    width:200px
+    height:400px
+}
+
+.adminContainer .movie .movie-con .grid .grid-con .span-on .sub-con{
+  border: 1px solid;
+
+}
+.menuBtn{
+justify-content: end;
+    gap: 10px;
+}
+
+
+/*주간 css*/
+.adminContainer .movie .movie-con .grid1 {
+  margin-top: 30px;
+  display: flex;
+
+
+}
+
+.adminContainer .movie .movie-con .grid1 .grid-con {
+  width: 1300px;
+}
+
+.adminContainer .movie .movie-con .grid1 .grid-con .span-on{
+gap: 159px 14px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    width: 1400px;
+}
+
+.adminContainer .movie .movie-con .grid1 .grid-con .span-on img{
+    width:200px
+    height:400px
+}
+
+.adminContainer .movie .movie-con .grid1 .grid-con .span-on .sub-con{
+  border: 1px solid;
+
+}
+.menuBtn2{
+justify-content: end;
+    gap: 10px;
+}
+
+}*/
+
+
+#chat-question span i{
+    display: block;
+    margin-top:-2px;
+    width: 30px;
+    height: 30px;
+    background-image: url("/images/chat.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+/* 모달 스타일 */
+.detailModal1 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* 배경 색상 추가 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detailModal-contents {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%; /* max-width와 함께 사용 */
+  position: relative;
+    top: 540px;
+    right: -688px;
+  transform: translateY(-280px); /* 화면 중앙에 위치시키기 위해 변형 */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); /* 추가적인 스타일링 */
+}
+
+.detailModal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* 배경 색상 추가 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.detailModal-content {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%; /* max-width와 함께 사용 */
+  position: relative;
+    top: 540px;
+    right: -688px;
+  transform: translateY(-280px); /* 화면 중앙에 위치시키기 위해 변형 */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); /* 추가적인 스타일링 */
+}
+.img-content{
+
+    justify-content: space-between;
+}
+/* 모달 닫기 버튼 */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 영화 정보 스타일 */
+.detailModal-content span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/*챗봇*/
+.answerBtn{
+display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.answerBtn button {
+    padding: 10px;
+    background-color: #7c8187;
+    color: white;
+    width: 205px;
+    font-size: 14px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.answerBtn button:hover {
+    background-color: #5a5e63;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#chat-bot {
+   position: fixed !important;
+   bottom: 50px !important;
+   right: 30px !important;
+   z-index: 999;
+}
+
+.grid-item {
+    position: relative;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center; /* 영화 이름을 중앙에 배치 */
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease; /* 호버 시 애니메이션 효과 추가 */
+
+}
+
+.rank-caption {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* 투명 배경색 */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.name-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* 투명 배경색 */
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: -5px;
+    z-index: 10;
+}
+
+.grid-item:hover {
+    transform: scale(1.05); /* 호버 시 전체 아이템 확대 */
+}
